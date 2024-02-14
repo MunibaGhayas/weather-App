@@ -1,0 +1,315 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  min-height: 100%;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+.input{
+  width: 12rem;
+  height: 2rem;
+  border-radius: 0.7rem;
+  background: whitesmoke;
+  color: #000;
+  padding: 2px;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 610px;
+  width: 570px;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(120deg, #c547ff, #442bb2);
+  cursor: pointer;
+  border-radius: 20px;
+}
+.weather_location{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.image{
+  width: 9rem;
+  height: 8rem;
+  margin-Left: 6rem;
+  margin-top: 3rem;
+}
+.weatherinfo{
+  margin-right: 5rem; 
+  margin-top: 4rem;
+}
+.humidity_data{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  font-size: 16px;
+}
+.humidity_percent{
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.text1{
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: rgb(201, 193, 193);
+}
+.text2{
+  font-size: 1rem;
+  color: rgb(201, 193, 193);
+  margin-left: 2rem;
+}
+.icon1{
+  width: 38px;
+  height: 2rem;
+  margin-left: 1rem;
+}
+.icon2{
+  width: 38px;
+  height: 2rem;
+  margin-left: 2rem;
+}
+.wind_percent{
+  font-size: 2rem;
+  margin-right: 3rem;
+}
+.button:hover{
+  color: #141313;
+  background-color: #996bcb;
+  
+}
+.weather{
+  display: flex;
+  justify-content: space-between;
+}
+
+.temp{
+  font-size: 3.5rem;
+}
+.description{
+  font-size: 2rem;
+}
+.name{
+  margin-top: 2rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 510px;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(120deg, #c547ff, #442bb2);
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .temp{
+    font-size: 3rem;
+  }
+  .description{
+    font-size: 1.5rem;
+  }
+  .name{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .humidity_data{
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    font-size: 14px;
+  }
+  .humidity_percent{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  .humidity{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .icon1{
+    width: 1.8rem;
+    height: 1.3rem;
+    margin-left: 1.8rem;
+  }
+  .icon2{
+    width: 1.7rem;
+    height: 1.6rem;
+    margin-left: 1rem;
+  }
+  .text2{
+    margin-left: 1rem;
+  }
+  .wind_percent{
+    font-size: 1.5rem;
+    margin-right: 3rem;
+  }
+  .image{
+    width: 7rem;
+    height: 7rem;
+    margin-Left: 5rem;
+    margin-top: 2rem;
+  }
+  .weatherinfo{
+    margin-right: 5rem; 
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 410px;
+    width: 370px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(120deg, #c547ff, #442bb2);
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  .humidity_data{
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+  }
+  .image{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-Left: 4.5rem;
+    margin-top: 2rem;
+  }
+  .weatherinfo{
+    margin-right: 4rem; 
+    margin-top: 2.5rem;
+  }
+  .temp{
+    font-size: 2rem;
+  }
+  .description{
+    font-size: 1rem;
+  }
+  .name{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .humidity_percent{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  .input{
+    width: 9rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+  }
+  .icon1{
+    width: 1.7rem;
+    height: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  .text1{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  .text2{
+    font-size: 1rem;
+  }
+  .icon2{
+    width: 1.7rem;
+    height: 1.6rem;
+    margin-left: 2rem;
+  }
+  .wind_percent{
+    font-size: 1.5rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 440px;
+    width: 340px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(120deg, #c547ff, #442bb2);
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  .humidity_data{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+  .image{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-Left: 4rem;
+    margin-top: 2rem;
+  }
+  .weatherinfo{
+    margin-right: 3.5rem; 
+    margin-top: 2.5rem;
+  }
+  .temp{
+    font-size: 2rem;
+  }
+  .description{
+    font-size: 1rem;
+  }
+  .name{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .humidity_percent{
+    font-size: 1.6rem;
+    margin-left: 1rem;
+  }
+  .input{
+    width: 9rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+  }
+  .icon1{
+    width: 1.9rem;
+    height: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  .text1{
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .text2{
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .icon2{
+    width: 1.7rem;
+    height: 1.6rem;
+    margin-left: 1rem;
+  }
+  .wind_percent{
+    font-size: 1.5rem;
+    margin-right: 3rem;
+  }
+}
